@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reverse of a number</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+        
+        <script type="text/javascript">
+            function r(){
+                var a = document.getElementById("b1").value;
+                var b, sum = 0;
+                var z = a;
+                while(a > 0)
+                {
+                    b = a % 10;
+                    sum = sum * 10 + b;
+                    a = parseInt(a / 10);
+                }
+                document.getElementById("p").innerText=sum;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="heading">Reverse of a number</h1>
+        <div class="main">
+            <div class="part1">
+                <img class="kitty" src="pic3.jpg" alt="catpic">
+            </div>
+
+            <div class="part2">
+                <h2 class="enter">Enter the number</h2>
+
+                <input type="text" class="box1" id="b1">
+
+                <button class="button" onClick=r()>Reverse</button>
+
+                <h2 class="ans" >Answer</h2>
+
+                <input type="text" class="box2" id="b2">
+
+                <p id="p" class="result"></p>
+            </div>
+
+
+
+        </div>
+    </body>
+</html>

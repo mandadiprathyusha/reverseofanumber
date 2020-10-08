@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.heading{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color:#1a1c20;
+}
+
+.main{
+    width:75%;
+    height:600px;
+    background-color:#f0a500;
+    position: absolute;
+    left:12%;
+}
+
+.part1{
+    height:600px;
+    width:46%;
+
+}
+.part2{
+    height:600px;
+    width:54.5%;
+    background-color:#f0a500;
+    position: absolute;
+    left:45.5%;
+    top:0;
+}
+
+.kitty{
+    height:600px;
+}
+
+.enter{
+    color:#1a1c20;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    position: absolute;
+    left:30%;
+    top:10%;
+}
+
+.box1{
+    border-radius: 20px;;
+    height:30px;
+    width:200px;
+    position: absolute;
+    left:32%;
+    top:25%;
+    border:none;
+    border-bottom: 2px solid #1a1c20;
+}
+
+.button{
+    background-color: #1a1c20;
+    color:#f0a500;
+    font-family: 'Sansita Swashed', cursive;
+    height:50px;
+    width:100px;
+    border-radius: 20px;
+    border: 2px solid #1a1c20;
+    position: absolute;
+    top:35%;
+    left:40%;
+}
+
+.ans{
+    color:#1a1c20;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    position: absolute;
+    left:30%;
+    top:50%;
+}
+
+.box2{
+    border-radius: 20px;;
+    height:30px;
+    width:200px;
+    position: absolute;
+    left:32%;
+    top:65%;
+    border:none;
+    border-bottom: 2px solid #1a1c20;
+}
+
+.result{
+    position: absolute;
+    left:33%;
+    top:63%;
+    font-family: 'Sansita Swashed', cursive;
+    color:#1a1c20;
+}
